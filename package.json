@@ -1,0 +1,30 @@
+{
+  "name": "nx-plugin-ts-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "lint": "npx nx run-many -t lint",
+    "lint:global": "eslint \"packages/**/*.ts\" --fix --quiet"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nx/eslint-plugin": "^19.1.2",
+    "@typescript-eslint/parser": "^7.13.1",
+    "eslint": "8.56.0",
+    "nx": "19.1.2",
+    "typescript": "5.1.6"
+  },
+  "engine": {
+    "node": ">=18.20.3 <19.0",
+    "npm": ">=10.7.0"
+  },
+  "volta": {
+    "node": "18.20.3",
+    "npm": "10.7.0"
+  }
+}

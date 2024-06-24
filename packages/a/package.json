@@ -1,0 +1,14 @@
+{
+  "name": "@packages/a",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "scripts": {
+    "lint": "eslint \"src/**/*.ts\" --fix --quiet"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "nx": {
+    "tags": ["packages:a"]
+  }
+}

@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "strictNullChecks": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "experimentalDecorators": true,
+        "useDefineForClassFields": true,
+        "jsx": "preserve",
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "noImplicitAny": true,
+        "module": "esnext",
+        "target": "es6",
+        "declaration": true,
+        "allowSyntheticDefaultImports": true,
+        "lib": ["dom", "es7"],
+        "outDir": "es"
+    }
+}

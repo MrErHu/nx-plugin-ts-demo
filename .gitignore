@@ -1,0 +1,23 @@
+# ide
+/.idea/
+/.vscode/
+
+# dependencies
+**/node_modules/
+**/npm-debug.log*
+.package-lock.json
+
+# dist
+**/website/
+**/es/
+**/dist/
+/views/**
+
+# testing
+**/coverage/
+
+.DS_Store
+
+# nx
+.nx/
+.nx/cache
